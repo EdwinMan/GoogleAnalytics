@@ -1,0 +1,7 @@
+ga:date,ga:pagePath,ga:country,ga:city,ga:browser,users,sessions,avgSessionDuration,pageviewsPerSession,bounceRate,avgTimeOnPage
+20220305,/,Lebanon,Beirut,Chrome,1.0,1.0,844.0,4.0,0.0,209.0
+20220305,/,Lebanon,Beirut,Safari,1.0,1.0,0.0,1.0,100.0,0.0
+20220305,/,United States,(not set),Safari,1.0,1.0,59.0,2.0,0.0,29.5
+20220305,/contact-us/,Lebanon,Beirut,Chrome,1.0,0.0,0.0,0.0,0.0,3.0
+20220305,/contact-us/,United States,(not set),Safari,1.0,0.0,0.0,0.0,0.0,0.0
+20220305,/my-blog/,Lebanon,Beirut,Chrome,1.0,0.0,0.0,0.0,0.0,5.0
