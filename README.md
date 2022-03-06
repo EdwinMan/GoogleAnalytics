@@ -2,6 +2,9 @@
 
 ### The project is connected to Google Analytics Reporting V4. and it is using the FastAPI python framework.
 ---
+
+*To be able to run the project on your machine, I need to provide you with the client_secret.json credentials. otherwise, the application will not run.*
+
 *make sure those packages are installed at your machine or a virtual environment*:
 - `pip install --upgrade google-api-python-client`
 - `pip install oauth2client`
