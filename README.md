@@ -30,7 +30,7 @@ the project is a python API that will call reporting data from Google Analytics 
 
 ---
 
-*The API has 1 Get request that will return the Data Frame as JSON object, and it will create a CSV file and will save it on the backend folder*
+*The API has 1 Get request that will return the Data Frame as JSON object, and it will create a CSV file and will save it on the backend folder. **Please Check the report.csv to see the result of the code.***
 
 ---
 
