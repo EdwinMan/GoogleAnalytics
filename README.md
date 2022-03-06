@@ -1,4 +1,4 @@
-# GoogleAnalytics
+# Google Analytics
 
 ### The project is connected to Google Analytics Reporting V4. and it is using the FastAPI python framework.
 ---
