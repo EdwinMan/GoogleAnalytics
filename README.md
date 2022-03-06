@@ -3,10 +3,10 @@
 The project is connected to Google Analytics Reporting V4. and it is using the FastAPI python framework.
 
 make sure those packages are installed at your machine or a virtual environment:
-1- pip install --upgrade google-api-python-client
-2- pip install oauth2client
-3- pip install pandas
-4- pip install fastapi
+- pip install --upgrade google-api-python-client
+- pip install oauth2client
+- pip install pandas
+- pip install fastapi
 
 to be able to run the application navigate into the project and run the command: uvicorn index:app.
 
