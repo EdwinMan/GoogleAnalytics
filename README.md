@@ -15,7 +15,7 @@ to be able to run the application navigate into the project and run the command:
 
 ---
 
-the project is a python API that will call reporting data from Google Analytics Reporting V4 using the specified metrics and dimensions:
+the project is a python API that will call reporting data from **Google Analytics Reporting V4** using the specified metrics and dimensions:
 
 ### metrics
 - ga:users
