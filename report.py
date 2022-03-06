@@ -75,7 +75,7 @@ class Reporting:
         ).execute()
 
         df = self.format_summary(response)
-
+        df.to_csv("reprot.csv")
         return df.to_json(orient = 'columns')
 
     # metrics
