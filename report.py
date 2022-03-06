@@ -48,7 +48,8 @@ class Reporting:
         return df
 
     def getReport(self):
-
+        
+        # setting up the metrics and dimensions of the request.
         response = self.service.reports().batchGet(
             body={
                 'reportRequests': [
@@ -72,23 +73,11 @@ class Reporting:
                     }]
             }
         ).execute()
-
+        
+        # convert the response to a Data Frame
         df = self.format_summary(response)
+        
+        # save a csv file of the result in folder
         df.to_csv("reprot.csv")
+        
         return df.to_json(orient = 'columns')
-
-    # metrics
-    # {'expression': 'ga:users'}
-    # {'expression': 'ga:sessions'}
-    # {'expression': 'ga:avgSessionDuration'}
-    # {'expression': 'ga:pageviewsPerSession'}
-    # {'expression': 'ga:bounceRate'}
-    # {'expression': 'ga:avgTimeOnPage'}
-
-    # dimensions
-    # {"name": "ga:pagePath"}
-    # {"name": "ga:browser"}
-    # {"name": "ga:country"}
-    # {"name": "ga:city"}
-    # {"name": "ga:language"}
-    # {"name": "ga:date"}
