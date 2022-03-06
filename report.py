@@ -56,12 +56,14 @@ class Reporting:
                     {
                         'viewId': '262094784',
                         'dateRanges': [{'startDate': '7daysAgo', 'endDate': 'today'}],
-                        'metrics': [{'expression': 'ga:users'},
-                                    {'expression': 'ga:sessions'},
-                                    {'expression': 'ga:avgSessionDuration'},
-                                    {'expression': 'ga:pageviewsPerSession'},
-                                    {'expression': 'ga:bounceRate'},
-                                    {'expression': 'ga:avgTimeOnPage'}],
+                        'metrics': [
+                            {'expression': 'ga:users'},
+                            {'expression': 'ga:sessions'},
+                            {'expression': 'ga:avgSessionDuration'},
+                            {'expression': 'ga:pageviewsPerSession'},
+                            {'expression': 'ga:bounceRate'},
+                            {'expression': 'ga:avgTimeOnPage'}
+                        ],
                         'dimensions': [
                             {"name": "ga:date"},
                             {"name": "ga:pagePath"},
